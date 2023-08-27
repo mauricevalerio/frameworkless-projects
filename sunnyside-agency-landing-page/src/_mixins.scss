@@ -1,0 +1,59 @@
+@mixin learn-more-style ($background) {
+    text-transform: uppercase;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        bottom: 0;
+        transform: skew(-12deg);
+        background: $background;
+        z-index: -1;
+        opacity: .5;
+        transition: all 400ms ease;
+    }
+
+    &:hover:before {
+        height: 10px;
+        opacity: 1;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@mixin background-positioning ($background, $min-height) {
+    position: relative;
+    min-height: $min-height;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        min-height: 100%;
+        background: no-repeat center/100% auto url("/#{$background}");
+        z-index: -1;
+    }
+}
+
+@mixin section-styling($sub-header-color, $text-content-color, $padding, $text-align) {
+    padding: $padding;
+    text-align: $text-align;
+
+    &-sub-headers {
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+        color: $sub-header-color;
+    }
+
+    &-text-content {
+        color: $text-content-color;
+        font-family: 'Barlow', sans-serif;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+}
