@@ -482,7 +482,7 @@ footer img.footer-logo {
     filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(198deg) brightness(121%) contrast(101%);
 }
 
-footer div.footer-social-media {
+footer div a {
     color: var(--primary-color);
 }
 
