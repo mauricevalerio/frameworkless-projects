@@ -476,14 +476,11 @@ footer div {
     display: flex;
     align-items: center;
     gap: 2rem;
+    color: #fff;
 }
 
 footer img.footer-logo {
     filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(198deg) brightness(121%) contrast(101%);
-}
-
-footer div a {
-    color: var(--primary-color);
 }
 
 footer div.footer-social-media img:hover {
