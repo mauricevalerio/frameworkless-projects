@@ -1,0 +1,63 @@
+@use 'colors';
+
+button {
+    border: none;
+    padding: .5rem 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+h1,
+h2,
+h3 {
+    color: colors.$very-dark-blue;
+}
+
+.heading-alt-color {
+    color: colors.$white;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+p {
+    font-weight: 500;
+    color: colors.$grayish-violet;
+}
+
+.light-blue-btn {
+    background: colors.$primary-cyan;
+    border-radius: 1rem;
+    color: colors.$white;
+}
+
+.btn-big {
+    margin-top: 1.75rem;
+    padding: .85rem 1.75rem;
+    font-size: 1.25rem;
+}
+
+.transparent-btn {
+    background: transparent;
+    color: colors.$grayish-violet;
+}
+
+%section-spacing {
+    margin: 2rem 0;
+    padding-right: 1rem;
+    padding-left: 5rem;
+}
+
+%section-spacing-alt {
+    margin-top: 10rem;
+    padding-right: 1rem;
+    padding-left: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
