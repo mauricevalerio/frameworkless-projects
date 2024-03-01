@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <title>Shortly | URL Shortener</title>
     <link rel="stylesheet" href="./src/scss/main.css">
   </head>
 
@@ -51,9 +51,12 @@
     </section>
 
     <section class="stats">
-      <form>
-        <input type="text" id="url-string" placeholder="Shorten a link here..." />
-        <button id="shorten-it-btn" class="light-blue-btn">Shorten It!</button>
+      <form id="url-form">
+        <div>
+          <input type="url" id="url-string" placeholder="Shorten a link here..." />
+          <p id="form-error-message" class="form-error-message">Please add a link</p>
+        </div>
+        <button id="url-btn" class="light-blue-btn">Shorten It!</button>
       </form>
 
       <div class="stats-txt">

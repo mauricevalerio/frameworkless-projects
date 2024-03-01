@@ -152,18 +152,69 @@ nav {
         display: flex;
         gap: .5rem;
 
+        div {
+            flex: 1;
+            position: relative;
+        }
+
+        .form-error-message {
+            opacity: 0;
+            position: absolute;
+            font-size: .75rem;
+            color: colors.$red-error;
+            font-style: italic;
+        }
+
         input {
             border-radius: 5px;
-            border: 1px solid transparent;
-            flex: 1;
+            border: 3px solid transparent;
+            width: 100%;
             padding: .75rem 2rem;
             color: colors.$very-dark-blue;
             outline: none;
             font-family: inherit;
         }
 
+        input.invalid {
+            border: 3px solid colors.$red-error;
+        }
+
+        input.invalid+.form-error-message {
+            opacity: 1;
+        }
+
         button {
             border-radius: .5rem;
+        }
+    }
+
+    .url-result {
+        background-color: colors.$white;
+        border-radius: 5px;
+        padding: 1rem;
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: .5rem;
+
+        &-short {
+            margin-left: auto;
+            margin-right: 1rem;
+            color: colors.$primary-cyan;
+            font-weight: 600;
+        }
+
+        &-btn {
+            background-color: colors.$primary-cyan;
+            color: colors.$white;
+            border-radius: 5px;
+            padding: 1rem 2rem;
+        }
+
+        &-btn.active {
+            background-color: colors.$secondary-dark-violet;
         }
     }
 }
@@ -203,6 +254,34 @@ nav {
     }
 }
 
+@media (min-width: 769px) {
+
+    .menu-options {
+        li:hover {
+            color: colors.$secondary-dark-violet;
+        }
+    }
+
+    button:hover {
+        opacity: .7;
+    }
+
+    .footer {
+
+        li:hover,
+        a:hover {
+            color: colors.$primary-cyan;
+        }
+
+        &-social-media {
+            img:hover {
+                filter: invert(83%) sepia(71%) saturate(743%) hue-rotate(126deg) brightness(89%) contrast(82%);
+            }
+        }
+    }
+
+}
+
 
 @media (max-width: 768px) {
 
@@ -226,7 +305,14 @@ nav {
         }
 
         .menu {
-            display: none;
+            z-index: 1;
+            position: absolute;
+            width: 90%;
+            bottom: -1000%;
+            left: 50%;
+            transform: scale(1, 0) translateX(-50%);
+            transform-origin: top;
+            transition: all 300ms linear;
 
             &-options,
             &-buttons {
@@ -257,13 +343,8 @@ nav {
         .menu.active {
             background: colors.$secondary-dark-violet;
             padding-top: 1rem;
-            z-index: 1;
             display: flex;
-            position: absolute;
-            width: 90%;
-            bottom: -1000%;
-            left: 50%;
-            transform: translateX(-50%);
+            transform: scale(1, 1) translateX(-50%);
             flex-direction: column;
         }
     }
@@ -306,9 +387,24 @@ nav {
             flex-direction: column;
             min-width: 90%;
             top: -5%;
+            gap: 1.5rem;
 
             button {
                 padding: 1rem 0;
+            }
+        }
+
+        .url-result {
+            flex-direction: column;
+            align-items: start;
+            gap: 1rem;
+
+            &-short {
+                margin: 0;
+            }
+
+            &-btn {
+                width: 100%;
             }
         }
     }

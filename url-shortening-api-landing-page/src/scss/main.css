@@ -74,7 +74,7 @@ nav, .hero {
 .stats {
   margin-top: 10rem;
   padding-right: 1rem;
-  padding-left: 5rem;
+  padding-left: 1rem;
   padding-top: 8rem;
   padding-bottom: 10rem;
 }
@@ -200,17 +200,60 @@ nav .menu-buttons button {
   display: flex;
   gap: 0.5rem;
 }
+.stats form div {
+  flex: 1;
+  position: relative;
+}
+.stats form .form-error-message {
+  opacity: 0;
+  position: absolute;
+  font-size: 0.75rem;
+  color: hsl(0, 87%, 67%);
+  font-style: italic;
+}
 .stats form input {
   border-radius: 5px;
-  border: 1px solid transparent;
-  flex: 1;
+  border: 3px solid transparent;
+  width: 100%;
   padding: 0.75rem 2rem;
   color: #34313D;
   outline: none;
   font-family: inherit;
 }
+.stats form input.invalid {
+  border: 3px solid hsl(0, 87%, 67%);
+}
+.stats form input.invalid + .form-error-message {
+  opacity: 1;
+}
 .stats form button {
   border-radius: 0.5rem;
+}
+.stats .url-result {
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.stats .url-result-short {
+  margin-left: auto;
+  margin-right: 1rem;
+  color: #2BD0D0;
+  font-weight: 600;
+}
+.stats .url-result-btn {
+  background-color: #2BD0D0;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+.stats .url-result-btn.active {
+  background-color: #3A3054;
 }
 
 .boost {
@@ -242,6 +285,21 @@ nav .menu-buttons button {
   gap: 1rem;
 }
 
+@media (min-width: 769px) {
+  .menu-options li:hover {
+    color: #3A3054;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+  .footer li:hover,
+  .footer a:hover {
+    color: #2BD0D0;
+  }
+  .footer-social-media img:hover {
+    filter: invert(83%) sepia(71%) saturate(743%) hue-rotate(126deg) brightness(89%) contrast(82%);
+  }
+}
 @media (max-width: 768px) {
   nav {
     justify-content: space-between;
@@ -261,7 +319,14 @@ nav .menu-buttons button {
     background: #9E9AA8;
   }
   nav .menu {
-    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 90%;
+    bottom: -1000%;
+    left: 50%;
+    transform: scale(1, 0) translateX(-50%);
+    transform-origin: top;
+    transition: all 300ms linear;
   }
   nav .menu-options, nav .menu-buttons {
     flex-direction: column;
@@ -285,13 +350,8 @@ nav .menu-buttons button {
   nav .menu.active {
     background: #3A3054;
     padding-top: 1rem;
-    z-index: 1;
     display: flex;
-    position: absolute;
-    width: 90%;
-    bottom: -1000%;
-    left: 50%;
-    transform: translateX(-50%);
+    transform: scale(1, 1) translateX(-50%);
     flex-direction: column;
   }
   .hero {
@@ -322,9 +382,21 @@ nav .menu-buttons button {
     flex-direction: column;
     min-width: 90%;
     top: -5%;
+    gap: 1.5rem;
   }
   .stats form button {
     padding: 1rem 0;
+  }
+  .stats .url-result {
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .stats .url-result-short {
+    margin: 0;
+  }
+  .stats .url-result-btn {
+    width: 100%;
   }
   .footer {
     align-items: center;
