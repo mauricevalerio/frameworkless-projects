@@ -26,10 +26,7 @@ img {
 
 a {
     text-decoration: none;
-}
-
-a:visited {
-    color: inherit;
+    color: #fff;
 }
 
 a:hover {
@@ -576,6 +573,10 @@ footer div.footer-social-media img:hover {
         min-width: 100%;
     }
 
+    ul a {
+        color: #fff;
+    }
+
     ul li:nth-child(3) {
         border-bottom: 1px solid #FFFFFF20;
     }
@@ -619,6 +620,7 @@ footer div.footer-social-media img:hover {
     div.btn-hero-container {
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: .5rem;
         font-size: .85rem;
     }
