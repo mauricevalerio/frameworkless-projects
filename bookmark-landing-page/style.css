@@ -186,6 +186,9 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
     align-items: center;
     justify-items: center;
+    background: no-repeat url("./images/bg-shape.png");
+    background-size: 35%;
+    background-position: bottom right;
 }
 
 .hero h1 {
@@ -194,6 +197,13 @@ h2 {
 }
 
 /* FEATURES */
+.features {
+    margin-top: 2rem;
+    background: no-repeat url("./images/bg-shape-invert.png");
+    background-size: 35%;
+    background-position: bottom left;
+}
+
 .features-tabs {
     text-align: center;
     max-width: fit-content;
@@ -203,6 +213,7 @@ h2 {
 
 .features-tabs div {
     display: inline-block;
+
 }
 
 .features-tabs .btn-tab {
@@ -222,14 +233,18 @@ h2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    gap: 6rem;
     color: var(--primary-color);
 }
 
 .tabcontent-text h3 {
     font-size: 1.75rem;
+}
+
+.tabcontent-text,
+.tabcontent img {
+    flex: 1;
 }
 
 /* EXTENSIONS */
@@ -516,7 +531,13 @@ footer .footer-logo {
 @media (max-width: 1018px) {
     /* HERO */
 
+    .hero {
+        background-position: top 30% right;
+        background-size: 60%;
+    }
+
     .hero>div {
+        margin-top: 1.5rem;
         order: 2;
         text-align: center;
     }
@@ -531,6 +552,11 @@ footer .footer-logo {
 
 
     /* FEATURES */
+    .features {
+        background-position: bottom 35% left;
+        background-size: 75%;
+    }
+
     .tabcontent {
         flex-direction: column;
         padding: 2rem 0;
