@@ -1,14 +1,14 @@
 {
   "name": "easybank-landing-page",
   "version": "1.0.0",
-  "description": "Easybank landing page",
+  "description": "Easybank Landing Page",
   "main": "index.js",
   "scripts": {
     "sass": "sass --no-source-map --watch index.scss:index.css"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "sass": "^1.72.0"
   }
