@@ -41,10 +41,8 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Twimba](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m5-twimba/) | Module 5 |
 | [Product Splash Page](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m6-product-splash-page/) | Module 6 |
 | [RPG Card Game](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m7-rpg-card-game/) | Module 7 |
-
 | [Blog Space API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-blog-space-api/) | Module 9 |
 | [Bored Bot API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-bored-bot-api/) | Module 9 |
 | [War Game API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-war-game-api/) | Module 9 |
-
 | [UI Design Dashboard](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-dashboard/) | Module 10 |
 | [UI Design Time and Space](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-timeandspace/) | Module 10 |
