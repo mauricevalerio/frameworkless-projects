@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Varela', sans-serif;
+}
+
+button {
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav {
+    padding: 1em;
+    background: #4CB8C4;
+    background: linear-gradient(to right, #3CD3AD, #4CB8C4);
+    position: sticky;
+    top: 0;
+}
+
+.nav-ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-ul a,
+.new-blog-button {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.new-blog-button {
+    border: none;
+    padding: 0;
+}
+
+.logo {
+    margin-left: auto;
+}
+
+.nav-ul a:hover,
+.new-blog-button:hover {
+    border-bottom: 3px solid black;
+}
+
+/* BLOGS */
+.blog-post-container {
+    padding: 1em;
+}
+
+.blog-post-item {
+    border-bottom: 1px solid gray;
+}
+
+.blog-post-item:last-of-type {
+    border-bottom: none;
+}
+
+/* FORMS */
+
+form {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 1em;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px 3px black;
+    background: linear-gradient(to right, #3CD3AD, #4CB8C4);
+    display: none;
+}
+
+.display-form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    gap: 10px;
+}
+
+.title-container,
+.body-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.title-label,
+.content-label {
+    text-transform: uppercase;
+}
+
+.title-input,
+.content-input {
+    font-family: inherit;
+}
+
+.title-input {
+    width: 400px;
+    height: 35px;
+    margin-left: 2.5em;
+}
+
+.content-input {
+    width: 400px;
+    height: 150px;
+    resize: none;
+}
+
+.post-button {
+    margin: 0 auto;
+    border: 1px solid gray;
+    background: transparent;
+    padding: 0.25em 2em;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+
+    .title-input,
+    .content-input {
+        width: 150px;
+    }
+
+    form {
+        margin: 10px;
+    }
+}

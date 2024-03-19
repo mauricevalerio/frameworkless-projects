@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Space</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-ul">
+            <li><a href="#">Home</a></li>
+            <li><button id="new-blog-button" class="new-blog-button">New Blog</button></li>
+            <li class="logo"><a href="#">BlogSpace 🤓</a></li>
+        </ul>
+    </nav>
+
+    <form id="blog-form">
+        <div class="title-container">
+            <label for="title" class="title-label">Title</label>
+            <input type="text" id="title" name="title" class="title-input" required>
+        </div>
+
+        <div class="body-container">
+            <label for="body" class="content-label">Content</label>
+            <textarea name="body" id="body" class="content-input" required></textarea>
+        </div>
+        <button class="post-button">Post</button>
+    </form>
+
+    <div id="blog-post-container" class="blog-post-container"></div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

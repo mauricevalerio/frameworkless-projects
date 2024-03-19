@@ -1,0 +1,153 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    user-select: none;
+}
+
+body {
+    padding: 0.5em;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+main,
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+main {
+    padding: 1em 0;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+form,
+input,
+button {
+    width: 100%;
+}
+
+input,
+button {
+    font-family: inherit;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1em 0;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+}
+
+input.error {
+    border-color: red;
+}
+
+/* Placeholder Styling */
+.error::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #AC485A;
+    opacity: 1;
+    /* Firefox */
+}
+
+.error:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #AC485A;
+}
+
+.error::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #AC485A;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: none;
+}
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+ul li {
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+
+li {
+    position: relative;
+}
+
+span.delete-item {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #FFFDF8;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.15em 0.25em;
+}
+
+
+@media (width>800px) {
+    div.container {
+        border: 3px solid black;
+        border-radius: 10px;
+        max-width: 70%;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    main {
+        flex: 1.5;
+        font-size: 1.25rem;
+    }
+
+    form {
+        gap: 0.5em;
+    }
+}

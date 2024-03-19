@@ -32,6 +32,7 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Space Exploration](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m2-space-exploration/) | Module 2 |
 | [Emojis](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-emojis/) | Module 3 |
 | [Passenger Counter](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-passenger-counter/) | Module 3 |
+| [Grocery Cart Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-grocery-cart-firebase/) | Module 3 |
 | [Co-Working Space Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-coworking-space-site/) | Module 4 |
 | [NFT Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-nft-site/) | Module 4 |
 | [Project Portfolio](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-project-portfolio/) | Module 4 |
@@ -40,5 +41,10 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Twimba](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m5-twimba/) | Module 5 |
 | [Product Splash Page](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m6-product-splash-page/) | Module 6 |
 | [RPG Card Game](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m7-rpg-card-game/) | Module 7 |
+
+| [Blog Space API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-blog-space-api/) | Module 9 |
+| [Bored Bot API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-bored-bot-api/) | Module 9 |
+| [War Game API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-war-game-api/) | Module 9 |
+
 | [UI Design Dashboard](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-dashboard/) | Module 10 |
 | [UI Design Time and Space](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-timeandspace/) | Module 10 |
