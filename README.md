@@ -34,6 +34,7 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Passenger Counter](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-passenger-counter/) | Module 3 |
 | [Leads Tracker Chrome Extension](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-leads-tracker-chrome-ext/) | Module 3 - Please read the README file how to add as browser extension |
 | [Grocery Cart Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-grocery-cart-firebase/) | Module 3 |
+| [We Are The Champions Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-we-are-the-champions/) | Module 3 |
 | [Co-Working Space Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-coworking-space-site/) | Module 4 |
 | [NFT Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-nft-site/) | Module 4 |
 | [Project Portfolio](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-project-portfolio/) | Module 4 |
