@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+	color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+/* NAVIGATION */
+nav a {
+    color: #fff;
+    text-decoration: none;
+	font-size: 1.125rem;
+	padding: 1em 0;
+	display: block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* TYPOGRAPHY */
+
+h1, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 1.75rem;
+	color: whitesmoke;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 1.375rem;
+}
+
+h3 {
+	font-size: 1rem;
+	color: #d0aaff;
+}
+
+p {
+	line-height: 1.5;
+}
+
+/* LINKS */
+a {
+	color: #ef5839;
+	text-decoration: 1px dotted underline;
+}
+
+.btn:hover, p a:active {
+	color: #d4b44c;
+}
+
+.btn {
+	font-size: 1.125rem;
+	padding: 0.5em 1em;
+	border-radius: 4.6px;
+	font-weight: 500;
+	text-decoration: none;
+	margin-bottom: 1em;
+	display: block;
+	text-align: center;
+}
+.btn:hover, 
+.btn:active {
+	background: #f3e885;
+	color: #2b283a;
+}
+
+.buy-nft-link {
+	background: #5f29a3;
+	color: whitesmoke;
+}
+
+.info-contact-link,
+.about-us-link {
+	color: #5f29a3;
+}
+
+.info-contact-link {
+	background: #f0e0ff;
+}
+
+.about-us-link {
+	background: whitesmoke;
+}
+
+/* IMAGES */
+.section-img {
+	width: 60%;
+	display: block;
+	max-width: 640px;
+	margin: 0 auto 2em;
+}
+
+.section-two-img {
+	width: 100%;
+	border-radius: 4.6px;
+	margin-bottom: 1em;
+}
+
+/* CONTAINERS */
+
+header, section, footer {
+	padding: 1.25em 0;
+}
+
+header, .section-two {
+	background: #5f29a3;
+}
+
+.section-two-container-img {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5em;
+}
+
+.feature-item {
+	flex: 1 220px;
+}
+
+.subcontainers {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.section-two {
+	color: whitesmoke;
+}
+
+footer {
+	color: #5f29a3;
+	text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 1.5em;
+    }  
+
+    li:not(:last-child) {
+        border-bottom: 1px dotted #a190b6;
+    }  
+}
+
+@media (min-width: 768px) {
+	#header-container, section, footer {
+		padding: 2.875em 0;
+	}
+	.btn {
+		display: inline-block;
+		margin-right: 0.5em;
+	}
+	h1 {
+		font-size: 2.25rem;
+	}
+	h2 {
+		font-size: 1.75rem;
+	}
+	h3 {
+		font-size: 1.25rem;
+	}
+	p {
+		font-size: 1.125rem;
+	}
+	header > .subcontainers, ul {
+		display: flex;
+		align-items: center;
+	}
+	nav {
+		margin-left: auto;
+	}
+	li {
+		margin-right: 1.5em;
+	}
+}

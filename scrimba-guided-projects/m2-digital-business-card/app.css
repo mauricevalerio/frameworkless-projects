@@ -1,0 +1,82 @@
+html,
+body {
+	box-sizing: border-box;
+	margin: 0;
+	height: 100vh;
+	font-family: Trebuchet MS, Geneva, Tahoma, sans-serif;
+	background-color: #e9c46a;
+}
+
+.card-container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	margin-right: 20px;
+	width: 150px;
+	border-radius: 20px;
+	transition: transform 1s 0.1s, box-shadow 1s 0.1s;
+}
+
+.avatar:hover {
+	transform: translateY(-0.5em);
+	box-shadow: 5px 5px 5px 2px #d8cefe;
+}
+
+
+.card {
+	background-color: #ddebf8;
+	color: #2b2839;
+	padding: 20px;
+	max-width: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 10px solid #d8cefe;
+	transition: transform 1s 0.1s, box-shadow 1s 0.1s;
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: translateY(-2em);
+	box-shadow: 5px 5px 5px 2px #d8cefe;
+}
+
+.info-container h2 {
+	text-decoration: #BB4430 wavy overline underline;
+	transition: letter-spacing 1s 0.1s;
+}
+
+.info-container h2:hover {
+	letter-spacing: 0.02rem;
+}
+
+.info-container p {
+	text-decoration: #231F20 solid underline;
+	transition: letter-spacing 1s 0.1s;
+}
+
+.info-container p:hover {
+	letter-spacing: 0.05rem;
+}
+
+.info-container h3 {
+	text-decoration: #231F20 solid underline;
+	transition: letter-spacing 1s 0.1s;
+}
+
+.info-container h3:hover {
+	letter-spacing: 0.05rem;
+}
+
+@media (max-width: 640px) {
+	.card {
+		flex-direction: column;
+	}
+
+}

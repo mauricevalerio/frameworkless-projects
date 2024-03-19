@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: 'Happy Monkey', cursive;
+	background: linear-gradient(to right bottom, #a2d2ff, #EFB0C9);
+}
+
+.spacing {
+	margin-bottom: 10px;
+}
+
+.white-text-design {
+	color: #ffffff;
+	text-shadow: 0px 0px 5px #000;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+
+#age,
+#bday {
+	background: #EFB0C9;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+#bday-picture {
+	width: 200px;
+	border-radius: 75px;
+	border: 5px solid #EFB0C9;
+}
+
+.gift-cover {
+	width: 400px;
+	height: 400px;
+	border: 6px solid white;
+	border-radius: 10px;
+	background-image: url("imgs/gift-cover.jpg");
+	background-size: cover;
+	transition: background 1s, transform 1s;
+}
+
+.gift-cover:hover {
+	transform: scale(1.05, 1.05);
+}
+
+#gift-happy:hover {
+	background: center/cover url("imgs/happy.gif");
+}
+
+#gift-hot:hover {
+	background: center/cover url("imgs/hot.gif");
+}
+
+#gift-genius:hover {
+	background: center/cover url("imgs/genius.gif");
+}
+
+#gift-badass:hover {
+	background: center/cover url("imgs/badass.gif");
+}
+
+#gift-cheers {
+	height: 200px;
+}
+
+#gift-cheers:hover {
+	background: center/cover no-repeat url("imgs/cheers.gif");
+}
+
+#footer {
+	max-width: 400px;
+	margin: 0 auto;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	padding: 25px 0;
+}
+
+#link {
+	transition: text-shadow 0.5s;
+}
+
+#link:hover {
+	text-shadow: 1px 1px 1px black;
+}
+
+.reveal {
+	position: relative;
+	transform: translateY(50px);
+	opacity: 0;
+	transition: 2s all ease;
+}
+
+.reveal.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	.white-text-design {
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.white-text-design {
+		text-align: center;
+	}
+
+	.gift-cover {
+		width: 200px;
+		height: 200px;
+	}
+
+	#footer {
+		font-size: 16px;
+		padding: 0;
+	}
+}

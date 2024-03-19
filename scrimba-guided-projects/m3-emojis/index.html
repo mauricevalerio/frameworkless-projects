@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emojis</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<main id="main-container">
+		<h1>User's Emojis</h1>
+		
+		<div id="change-size-container">
+			<input type="number" id="emoji-size-input">
+			<button id="change-size-btn" type="submit">Change Default Size(px)</button>
+		</div>
+		<p id="error-message"></p>
+		
+		<div id="emoji-container"></div>
+
+		<div class="form-container">
+			<div class="buttons-wrapper">
+				<button id="add-to-start-btn">+</button>
+				<button id="remove-to-start-btn">-</button>
+			</div>
+
+			<input type="text" id="emoji-input" placeholder="type an emoji 🎉">
+
+			<div class="buttons-wrapper">
+				<button id="add-to-end-btn">+</button>
+				<button id="remove-to-end-btn">-</button>
+			</div>
+		</div>
+		
+		<p id="sample-emojis">Some sample emojis: </p>
+	</main>
+	<script src="app.js"></script>
+  </body>
+</html>

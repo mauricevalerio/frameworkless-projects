@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #404040;
+	margin: 0;
+}
+
+/* =================
+    Typography 
+   ================= */
+
+h1 {
+    font-weight: 400;
+	font-size: 2.5rem;
+	text-shadow: 0 2px 2px #816fca
+}
+
+h2 {
+	font-size: 2.25rem;
+	margin: 0.167em 0;
+}
+
+p {
+	font-size: 1.125rem;
+	line-height: 1.35;
+}
+
+.beta-text,
+.subheading {
+	text-transform: uppercase;
+}
+
+.beta-text { 
+    font-weight: 900;
+}
+
+.subheading {
+    color: #575757;
+    font-weight: 900;
+	margin-bottom: 0.5em;
+}
+
+.fine-print {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
+
+.top-text {
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+	order: -1;
+	margin: 0 auto;
+}
+
+/* =================
+    Flex Containers
+   ================= */
+.intro,
+.main-content {
+	display: flex;
+	flex-direction: column;
+	padding: 0 2em 0;
+}
+/* =================
+    Intro
+   ================= */
+
+.intro { 
+    color: #fff;
+	justify-content: space-between;
+	text-align: center;
+	min-height: 250px;
+	background: #9480e4 center/cover no-repeat url('images/intro-bg.png');
+	padding-bottom: 1.5em;
+}
+
+/* ====================
+    Main content
+   ==================== */
+.main-content {
+	align-items: center;
+}
+
+.img-main {
+	width: 120px;
+	border-radius: 50%;
+}
+
+.main-content p,
+form {
+	max-width: 450px;
+}
+
+/* =================
+    Form
+   ================= */
+input, 
+button {
+	width: 100%;
+	font-family: inherit;
+	border-radius: 5px;
+}	
+
+input {
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border: 2px solid #d1d5db;
+}
+
+input:focus {
+	outline: none;
+	border-color: #8a71ec;
+	background: #e6e8ec;
+}
+
+.btn {
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	padding: 1em 0;
+	cursor: pointer;
+}
+
+.btn-primary {
+	color: #FFF;
+	background: #8a71ec;
+	margin-top: 1em;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background: #b7a7f6;
+}
+
+/* =================
+    Media queries 
+   ================= */
+   
+@media (min-width: 576px) {
+	body {
+		display: flex;
+	}
+	.intro, .main-content {
+		flex: 50%;
+	}
+	.intro {
+		min-height: 100vh;
+	}
+	.main-content {
+		justify-content: center;
+		padding-top: 0;
+	}
+	h1 {
+		font-size: 5vw;
+	}
+	h2 {
+		font-size: 2.2625rem;
+	}
+	.beta-text {
+		font-size: 1.25rem;
+	}
+}

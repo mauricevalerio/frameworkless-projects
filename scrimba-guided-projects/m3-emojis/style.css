@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Baloo 2', cursive;
+	background-image: linear-gradient(#5DA4D9, #FFF);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* CONTAINERS */
+#main-container {
+	background: #d4a373;
+	width: 50%;
+	border-radius: 10px;
+	padding: 50px;
+}
+
+#change-size-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+#emoji-container {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.form-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttons-wrapper {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+/* FORMS */
+#emoji-size-input {
+	display: block;
+	border: none;
+	height: 30px;
+	width: 60px;
+	color: white;
+	background: #2a9d8f;
+	border-radius: 6px 0 0 6px;
+	outline: none;
+	border-right: 1px solid #25897d;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+#emoji-input {
+	border: none;
+	height: 60px;
+	font-size: 24px;
+	background: white;
+	border-radius: 6px;
+	text-align: center;
+	outline: none;
+}
+
+/* TYPOGRAPHY */
+h1,
+p {
+	margin-top: 0;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+}
+
+#sample-emojis {
+	margin-top: 20px;
+	letter-spacing: 0;
+	font-size: 1.5rem;
+}
+
+#emoji-container span {
+	margin: 10px;
+	font-size: 4rem;
+}
+
+#error-message {
+	color: red;
+}
+
+/* BUTTONS */
+button {
+	font-family: inherit;
+	color: white;
+	border: none;
+	padding: 4px 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: 800;
+	opacity: 0.60;
+	transition: opacity 0.5s;
+	margin: 5px;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+#add-to-end-btn,
+#add-to-start-btn {
+	background-color: #80D87F;
+}
+
+#remove-to-end-btn,
+#remove-to-start-btn {
+	background-color: #E23349;
+}
+
+#change-size-btn {
+	background: #2a9d8f;
+	margin: 0;
+	border-radius: 0 6px 6px 0;
+}
+
+#change-size-btn:hover {
+	border: none;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+	#main-container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.buttons-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#emoji-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#emoji-container span {
+		margin: 0;
+		font-size: 3rem;
+	}
+}
