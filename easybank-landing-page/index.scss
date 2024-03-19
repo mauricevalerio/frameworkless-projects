@@ -25,6 +25,17 @@ body {
     background-color: $neutral-white;
 
     &__nav {
+        display: none;
+        @extend %nav__style;
+    }
+
+    &__btn--hamburger {
+        background: none;
+        border: none;
+    }
+
+    &__btn--hamburger.is__active+&__nav {
+        display: block;
         margin: 0 auto;
         width: 90%;
         background-color: $neutral-white;
@@ -34,12 +45,6 @@ body {
         padding: 1rem;
         animation: nav__animation--open 1s;
         text-align: center;
-        @extend %nav__style
-    }
-
-    &__nav--desktop {
-        display: none;
-        @extend %nav__style
     }
 
     &__button {
@@ -59,7 +64,7 @@ body {
             width: 100%;
             min-height: 360px;
             z-index: 1;
-            background: no-repeat center/cover url('/backgrounds/bg-intro-mobile.svg');
+            background: no-repeat center/cover url('./assets/backgrounds/bg-intro-mobile.svg');
         }
     }
 
@@ -187,26 +192,35 @@ body {
     }
 }
 
-@media (min-width: 768px) {
-    .hamburger__menu {
-        display: none;
+@media (min-width: 400px) {
+    .hero {
+        &__img {
+            max-height: 480px;
+        }
     }
+}
 
+@media (min-width: 768px) {
     .header {
         padding: 1.5rem 4rem;
 
-        &__button {
-            display: inline-block;
-        }
-
-        &__nav--desktop {
+        &__nav {
             display: flex;
-            column-gap: 1.5rem;
+            gap: 1.5rem;
 
             a {
                 margin-bottom: 0;
                 color: $neutral-grayish-blue;
                 position: relative;
+
+                &:before {
+                    display: block;
+                    content: attr(title);
+                    font-weight: 600;
+                    height: 0;
+                    overflow: hidden;
+                    visibility: hidden;
+                }
 
                 &:hover {
                     font-weight: 600;
@@ -227,20 +241,17 @@ body {
                 &:hover:after {
                     transform: scaleX(1);
                 }
-
-
             }
         }
-    }
-}
 
-@media (min-width: 400px) {
-    .hero {
-        &__img {
-            max-height: 480px;
+        &__btn--hamburger {
+            display: none;
+        }
+
+        &__button {
+            display: inline-block;
         }
     }
-
 }
 
 @media (min-width: 1024px) {
@@ -353,7 +364,15 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
+
         }
+
+        &__social--media {
+            img:hover {
+                filter: invert(68%) sepia(80%) saturate(455%) hue-rotate(77deg) brightness(88%) contrast(90%);
+            }
+        }
+
 
         &__column--two {
             display: grid;
@@ -364,6 +383,10 @@ body {
 
             p {
                 margin-bottom: 1rem;
+            }
+
+            a:hover {
+                color: $primary-lime-green;
             }
         }
     }
