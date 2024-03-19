@@ -1,6 +1,4 @@
-# Frontendmentor Landing Pages Challenges
-Collection of my solutions to [frontendmentor challenges](https://www.frontendmentor.io)
-
+# Frameworkless Projects
 Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrimba guided and solo projects](https://scrimba.com/learn/frontend) without the use of any UI libraries or frameworks.
 
 | Challenge Name | Difficulty |
@@ -10,7 +8,3 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Bookmark Landing Page](https://mauricevalerio.github.io/frameworkless-projects/bookmark-landing-page/) | Intermediate |
 | [Sunnyside Agency Landing Page](https://mauricevalerio.github.io/frameworkless-projects/sunnyside-agency-landing-page/) | Junior |
 | [Blogr Landing Page](https://mauricevalerio.github.io/frameworkless-projects/blogr-landing-page/) | Junior |
-
-| Project Name |
-| ----------- |
-| [Test](Test) |
