@@ -32,6 +32,7 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Space Exploration](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m2-space-exploration/) | Module 2 |
 | [Emojis](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-emojis/) | Module 3 |
 | [Passenger Counter](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-passenger-counter/) | Module 3 |
+| [Leads Tracker Chrome Extension](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-leads-tracker-chrome-ext/) | Module 3 - Please read the README file how to add as browser extension |
 | [Grocery Cart Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-grocery-cart-firebase/) | Module 3 |
 | [Co-Working Space Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-coworking-space-site/) | Module 4 |
 | [NFT Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-nft-site/) | Module 4 |
@@ -44,5 +45,7 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Blog Space API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-blog-space-api/) | Module 9 |
 | [Bored Bot API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-bored-bot-api/) | Module 9 |
 | [War Game API](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-war-game-api/) | Module 9 |
+| [Momentum Dashboard Clone](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m9-momentum-dashboard-clone-api/) | Module 9 |
 | [UI Design Dashboard](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-dashboard/) | Module 10 |
 | [UI Design Time and Space](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-timeandspace/) | Module 10 |
+
