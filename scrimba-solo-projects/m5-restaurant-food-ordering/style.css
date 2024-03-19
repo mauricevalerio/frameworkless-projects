@@ -46,7 +46,7 @@ body {
 }
 
 header {
-  background: center/cover no-repeat url('burger-bg.png');
+  background: center/cover no-repeat url('./burger-bg.png');
   min-height: 125px;
 }
 
