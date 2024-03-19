@@ -29,17 +29,14 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-landing-pages/tree/main/sunnyside-agency-landing-page)
-- Live Site URL: [Sunnyside Up Agency](https://sunnysideupagency.netlify.app/)
+- Live Site URL: [Sunnyside Up Agency](https://mauricevalerio.github.io/frontendmentor-landing-pages/sunnyside-agency-landing-page)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5
-- Flexbox
-- Grid
+- HTML
 - Mobile-first workflow
-- [TypeScript](https://www.typescriptlang.org/)
 - [SASS/SCSS](https://sass-lang.com/)
 - [GSAP](https://greensock.com/)
 

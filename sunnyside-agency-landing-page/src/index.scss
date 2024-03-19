@@ -15,7 +15,7 @@ body {
 }
 
 .header-bg {
-    @include background-positioning($background: "header/image-header.jpg", $min-height: 500px);
+    @include background-positioning($background: "../public/header/image-header.jpg", $min-height: 500px);
 
     .header {
         padding: 1.35rem;
@@ -96,7 +96,7 @@ body {
 }
 
 .section-graphic-design-bg {
-    @include background-positioning($background: "image-graphic-design.jpg", $min-height: 600px);
+    @include background-positioning($background: "../public/image-graphic-design.jpg", $min-height: 600px);
     @extend %flex-section;
 
     .section-graphic-design {
@@ -105,7 +105,7 @@ body {
 }
 
 .section-photography-bg {
-    @include background-positioning($background: "image-photography.jpg", $min-height: 600px);
+    @include background-positioning($background: "../public/image-photography.jpg", $min-height: 600px);
     @extend %flex-section;
 
     .section-photography {
@@ -198,7 +198,7 @@ body {
 
 @media (min-width: 1024px) {
     .header-bg {
-        @include background-positioning($background: 'desktop/image-header.jpg', $min-height: 700px);
+        @include background-positioning($background: '../public/desktop/image-header.jpg', $min-height: 700px);
 
         .header {
             .hamburger-menu {
@@ -253,7 +253,7 @@ body {
     }
 
     .section-graphic-design-bg {
-        @include background-positioning($background: "desktop/image-graphic-design.jpg", $min-height: 480px);
+        @include background-positioning($background: "../public/desktop/image-graphic-design.jpg", $min-height: 480px);
 
         .section-graphic-design {
             @include section-styling($sub-header-color: $p-dark-desaturated-cyan, $text-content-color: $p-dark-desaturated-cyan, $padding: 1rem 4rem, $text-align: center);
@@ -261,7 +261,7 @@ body {
     }
 
     .section-photography-bg {
-        @include background-positioning($background: "desktop/image-photography.jpg", $min-height: 480px);
+        @include background-positioning($background: "../public/desktop/image-photography.jpg", $min-height: 480px);
 
         .section-photography {
             @include section-styling($sub-header-color: $p-dark-blue, $text-content-color: $p-dark-blue, $padding: 1rem 4rem, $text-align: center);
