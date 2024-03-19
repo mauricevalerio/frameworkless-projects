@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-landing-pages/tree/main/easybank-landing-page)
-- Live Site URL: [Easybank Landing Page](https://izibank.netlify.app/)
+- Live Site URL: [Easybank Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/easybank-landing-page/)
 
 ## My process
 
