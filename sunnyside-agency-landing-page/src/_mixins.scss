@@ -34,7 +34,7 @@
         position: absolute;
         width: 100%;
         min-height: 100%;
-        background: no-repeat center/100% auto url("/#{$background}");
+        background: no-repeat center/100% auto url("#{$background}");
         z-index: -1;
     }
 }
