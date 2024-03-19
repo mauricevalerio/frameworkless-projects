@@ -10,6 +10,19 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Sunnyside Agency Landing Page](https://mauricevalerio.github.io/frameworkless-projects/sunnyside-agency-landing-page/) | Junior |
 | [Blogr Landing Page](https://mauricevalerio.github.io/frameworkless-projects/blogr-landing-page/) | Junior |
 
+## Scrimba Solo Projects
+| Project Name | Module |
+| ----------- | ----------- |
+| [Hometown Homepage](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m2-hometown-homepage/) | Module 2 |
+| [Basketball Scoreboard](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m3-basketball-scoreboard/) | Module 3 |
+| [Unit Converter](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m3-unit-converter/) | Module 3 |
+| [Oldagram](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m4-oldagram/) | Module 4 |
+| [Food Ordering App](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m5-restaurant-food-ordering/) | Module 5 |
+| [Learning Journal](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m6-learning-journal/) | Module 6 |
+| [Tindog](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m7-tindog/) | Module 7 |
+| [Color Scheme](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m9-color-scheme-generator/) | Module 9 |
+| [StopDropRoll](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m10-ui-design-stopdroproll/) | Module 10 |
+
 ## Scrimba Guided Projects
 | Project Name | Module |
 | ----------- | ----------- |
@@ -29,4 +42,3 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [RPG Card Game](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m7-rpg-card-game/) | Module 7 |
 | [UI Design Dashboard](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-dashboard/) | Module 10 |
 | [UI Design Time and Space](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m10-ui-design-timeandspace/) | Module 10 |
-| [RPG Card Game](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m7-rpg-card-game/) | Module 7 |
