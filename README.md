@@ -16,13 +16,13 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Hometown Homepage](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m2-hometown-homepage/) | Module 2 |
 | [Basketball Scoreboard](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m3-basketball-scoreboard/) | Module 3 |
 | [Unit Converter](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m3-unit-converter/) | Module 3 |
-| [We Are The Champions Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m3-we-are-the-champions/) | Module 3 |
+| [We Are The Champions Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m3-we-are-the-champions/) | Module 3 Progressive Web App |
 | [Oldagram](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m4-oldagram/) | Module 4 |
 | [Food Ordering App](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m5-restaurant-food-ordering/) | Module 5 |
 | [Learning Journal](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m6-learning-journal/) | Module 6 |
 | [Tindog](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m7-tindog/) | Module 7 |
 | [Color Scheme](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m9-color-scheme-generator/) | Module 9 |
-| [StopDropRoll](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m10-ui-design-stopdroproll/) | Module 10 |
+| [Stop Drop Roll](https://mauricevalerio.github.io/frameworkless-projects/scrimba-solo-projects/m10-ui-design-stopdroproll/) | Module 10 |
 
 ## Scrimba Guided Projects
 | Project Name | Module |
@@ -33,8 +33,8 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 | [Space Exploration](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m2-space-exploration/) | Module 2 |
 | [Emojis](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-emojis/) | Module 3 |
 | [Passenger Counter](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-passenger-counter/) | Module 3 |
-| [Leads Tracker Chrome Extension](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-leads-tracker-chrome-ext/) | Module 3 - Please read the README file how to add as browser extension |
-| [Grocery Cart Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-grocery-cart-firebase/) | Module 3 |
+| [Leads Tracker Chrome Extension](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-leads-tracker-chrome-ext/) | Module 3 - Browser extension |
+| [Grocery Cart Firebase](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m3-grocery-cart-firebase/) | Module 3 Progressive Web App |
 | [Co-Working Space Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-coworking-space-site/) | Module 4 |
 | [NFT Site](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-nft-site/) | Module 4 |
 | [Project Portfolio](https://mauricevalerio.github.io/frameworkless-projects/scrimba-guided-projects/m4-project-portfolio/) | Module 4 |
