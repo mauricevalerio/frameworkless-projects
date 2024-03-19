@@ -5,11 +5,11 @@ Projects from [frontendmentor challenges](https://www.frontendmentor.io), [Scrim
 
 | Challenge Name | Difficulty |
 | ----------- | ----------- |
-| [URL Shortener Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/url-shortening-api-landing-page/) | Intermediate |
-| [Easybank Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/easybank-landing-page/) | Intermediate |
-| [Bookmark Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/bookmark-landing-page/) | Intermediate |
-| [Sunnyside Agency Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/sunnyside-agency-landing-page/) | Junior |
-| [Blogr Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/blogr-landing-page/) | Junior |
+| [URL Shortener Landing Page](https://mauricevalerio.github.io/frameworkless-projects/url-shortening-api-landing-page/) | Intermediate |
+| [Easybank Landing Page](https://mauricevalerio.github.io/frameworkless-projects/easybank-landing-page/) | Intermediate |
+| [Bookmark Landing Page](https://mauricevalerio.github.io/frameworkless-projects/bookmark-landing-page/) | Intermediate |
+| [Sunnyside Agency Landing Page](https://mauricevalerio.github.io/frameworkless-projects/sunnyside-agency-landing-page/) | Junior |
+| [Blogr Landing Page](https://mauricevalerio.github.io/frameworkless-projects/blogr-landing-page/) | Junior |
 
 | Project Name |
 | ----------- |
