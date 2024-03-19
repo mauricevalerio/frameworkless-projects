@@ -4,7 +4,7 @@ Collection of my solutions to [frontendmentor challenges](https://www.frontendme
 | Challenge Name | Difficulty |
 | ----------- | ----------- |
 | [URL Shortener Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/url-shortening-api-landing-page/) | Intermediate |
-| [Easybank Landing Page](https://izibank.netlify.app/) | Intermediate |
+| [Easybank Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/easybank-landing-page/) | Intermediate |
 | [Bookmark Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/bookmark-landing-page/) | Intermediate |
 | [Sunnyside Agency Landing Page](https://sunnysideupagency.netlify.app/) | Junior |
 | [Blogr Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/blogr-landing-page/) | Junior |
