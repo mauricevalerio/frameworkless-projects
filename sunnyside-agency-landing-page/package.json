@@ -4,7 +4,7 @@
   "description": "Sunnyside Agency Landing Page",
   "main": "app.js",
   "scripts": {
-    "sass": "sass --no-source-map --watch ./src/index.scss ./src/index.css"
+    "sass": "sass --no-source-map --watch ./scss/index.scss index.css"
   },
   "keywords": [],
   "author": "",
