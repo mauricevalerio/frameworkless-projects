@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/mauricevalerio/frontendmentor-landing-pages/tree/main/url-shortening-api-landing-page)
-- Live Site URL: [URL Shortener API](https://mauricevalerio.github.io/frontendmentor-landing-pages/url-shortening-api-landing-page/)
+- Solution URL: [Github Repo](https://github.com/mauricevalerio/frameworkless-projects/tree/main/frontendmentor-challenges/url-shortening-api-landing-page)
+- Live Site URL: [URL Shortener API](https://mauricevalerio.github.io/frameworkless-projects/frontendmentor-challenges/url-shortening-api-landing-page/)
 
 ## My process
 

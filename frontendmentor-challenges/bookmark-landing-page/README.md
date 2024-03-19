@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-landing-pages/tree/main/bookmark-landing-page)
-- Live Site URL: [Bookmark Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/bookmark-landing-page/)
+- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frameworkless-projects/tree/main/frontendmentor-challenges/bookmark-landing-page)
+- Live Site URL: [Bookmark Landing Page](https://mauricevalerio.github.io/frameworkless-projects/frontendmentor-challenges/bookmark-landing-page/)
 
 ## My process
 

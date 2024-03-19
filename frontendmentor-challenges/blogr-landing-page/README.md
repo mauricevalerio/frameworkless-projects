@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-landing-pages/tree/main/blogr-landing-page)
-- Live Site URL: [Blogr Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/blogr-landing-page/)
+- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frameworkless-projects/tree/main/frontendmentor-challenges/blogr-landing-page)
+- Live Site URL: [Blogr Landing Page](https://mauricevalerio.github.io/frameworkless-projects/frontendmentor-challenges/blogr-landing-page/)
 
 ## My process
 

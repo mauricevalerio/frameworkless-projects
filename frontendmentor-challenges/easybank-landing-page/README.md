@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-landing-pages/tree/main/easybank-landing-page)
-- Live Site URL: [Easybank Landing Page](https://mauricevalerio.github.io/frontendmentor-landing-pages/easybank-landing-page/)
+- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frameworkless-projects/tree/main/frontendmentor-challenges/easybank-landing-page)
+- Live Site URL: [Easybank Landing Page](https://mauricevalerio.github.io/frameworkless-projects/frontendmentor-challenges/easybank-landing-page/)
 
 ## My process
 
