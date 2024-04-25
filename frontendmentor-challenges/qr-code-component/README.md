@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-challenges/tree/main/qr-code-component)
-- Live Site URL: [Frontendmentor Website QR Link](https://frontendmentor-quick-response-code.netlify.app/)
+- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frameworkless-projects/tree/main/frontendmentor-challenges/qr-code-component)
+- Live Site URL: [Frontendmentor Website QR Link](https://mauricevalerio.github.io/frameworkless-projects/frontendmentor-challenges/qr-code-component/)
 
 ## My process
 
