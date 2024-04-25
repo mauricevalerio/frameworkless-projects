@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frontendmentor-challenges)
-- Live Site URL: [Project Tracking Intro](https://project-tracker-intro.netlify.app/)
+- Solution URL: [GitHub Repo](https://github.com/mauricevalerio/frameworkless-projects/tree/main/frontendmentor-challenges/project-tracking-intro-component)
+- Live Site URL: [Project Tracking Intro](https://mauricevalerio.github.io/frameworkless-projects/frontendmentor-challenges/project-tracking-intro-component/)
 
 ## My process
 
